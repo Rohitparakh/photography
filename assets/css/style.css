@@ -3878,7 +3878,8 @@ iframe {
   background-image: none;
   color: #fff;
   font-size: 40px;
-  float: right;
+  /* float: right; */
+  margin-left: 10px;
   opacity: 0.4;
   padding: 0;
   transition: 0.3s;
@@ -3924,7 +3925,7 @@ iframe {
 .off-canvas-wrapper .off-canvas-inner {
   background-color: transparent;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   position: relative;
   transform: translateX(0);
   transition: 0.3s;
